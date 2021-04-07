@@ -1,0 +1,7 @@
+com/keepcodeclean/ssoauth/config/WebConfig.class
+com/keepcodeclean/ssoauth/SsoauthApplication.class
+com/keepcodeclean/ssoauth/controller/HomeController.class
+com/keepcodeclean/ssoauth/service/SocialAuthService.class
+com/keepcodeclean/ssoauth/config/SecurityConfig.class
+com/keepcodeclean/ssoauth/domain/User.class
+com/keepcodeclean/ssoauth/domain/SocialProvider.class

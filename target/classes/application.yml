@@ -1,0 +1,48 @@
+server:
+  port: 8888
+  ssl:
+    key-store: test.pfx
+    key-store-password: kalabatj20
+    key-store-type: pkcs12
+    key-alias: sispur
+    enabled: false
+
+facebook:
+  client:
+    clientId: 933791797373933
+    clientSecret: c20271ed2623da9118b8282be89a9ae5
+    accessTokenUri: https://graph.facebook.com/oauth/access_token
+    userAuthorizationUri: https://www.facebook.com/dialog/oauth
+    tokenName: oauth_token
+    authenticationScheme: query
+    clientAuthenticationScheme: form
+    scope: email public_profile
+  resource:
+    userInfoUri: https://graph.facebook.com/me?fields=id,first_name,middle_name,last_name,name,email
+
+google:
+  client:
+    clientId: 136332187688-tlgdlrcj2v9vlv27s54k909f6i2m766k.apps.googleusercontent.com
+    clientSecret: 91aa5c6f6a4ab3aea2df68a8922bb57ad9258fe5
+    accessTokenUri: https://github.com/login/oauth/access_token
+    userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
+    clientAuthenticationScheme: form
+    scope: profile email
+  resource:
+    userInfoUri:  https://www.googleapis.com/oauth2/v3/userinfo
+
+github:
+  client:
+    clientId: 3e01a92a30753088b566
+    clientSecret: 7bb962783378a01c07f02ac065acf3fb991d5121
+    accessTokenUri: https://github.com/login/oauth/access_token
+    userAuthorizationUri: https://github.com/login/oauth/authorize
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri:  https://api.github.com/user
+
+
+security:
+  oauth2:
+    client:
+      preEstablishedRedirectUri: http://localhost:8888/

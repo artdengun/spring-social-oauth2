@@ -1,0 +1,7 @@
+/home/chocolate/Downloads/oauth-web-tutorial-master/src/main/java/com/keepcodeclean/ssoauth/config/WebConfig.java
+/home/chocolate/Downloads/oauth-web-tutorial-master/src/main/java/com/keepcodeclean/ssoauth/domain/SocialProvider.java
+/home/chocolate/Downloads/oauth-web-tutorial-master/src/main/java/com/keepcodeclean/ssoauth/domain/User.java
+/home/chocolate/Downloads/oauth-web-tutorial-master/src/main/java/com/keepcodeclean/ssoauth/controller/HomeController.java
+/home/chocolate/Downloads/oauth-web-tutorial-master/src/main/java/com/keepcodeclean/ssoauth/config/SecurityConfig.java
+/home/chocolate/Downloads/oauth-web-tutorial-master/src/main/java/com/keepcodeclean/ssoauth/service/SocialAuthService.java
+/home/chocolate/Downloads/oauth-web-tutorial-master/src/main/java/com/keepcodeclean/ssoauth/SsoauthApplication.java
